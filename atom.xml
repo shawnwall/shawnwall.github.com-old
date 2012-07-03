@@ -4,7 +4,7 @@
   <title><![CDATA[Shawn Wall]]></title>
   <link href="http://shawnwall.github.com/atom.xml" rel="self"/>
   <link href="http://shawnwall.github.com/"/>
-  <updated>2012-07-03T15:41:36-04:00</updated>
+  <updated>2012-07-03T16:46:12-04:00</updated>
   <id>http://shawnwall.github.com/</id>
   <author>
     <name><![CDATA[Shawn Wall]]></name>
@@ -12,5 +12,41 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Reality > Augmented Reality]]></title>
+    <link href="http://shawnwall.github.com/blog/2012/07/03/reality-%3E-augmented-reality/"/>
+    <updated>2012-07-03T15:56:00-04:00</updated>
+    <id>http://shawnwall.github.com/blog/2012/07/03/reality->-augmented-reality</id>
+    <content type="html"><![CDATA[<p>When was the last time you used the latest AR app more than once? After reading yesterday about IBM&#8217;s <a href="http://www.fastcompany.com/1841831/ibm-ushering-in-an-age-of-augmented-reality-shopping?partner=rss">Augmented Reality Shopping App</a> I&#8217;m starting to get fed up with this trend that attempts to solve a problem that I personally don&#8217;t view as an actual problem in the first place. What exactly <em>is</em> the problem trying to be solved? The simplest case is:</p>
+
+<blockquote><p>Where is X?</p></blockquote>
+
+<p>A secondary case is:</p>
+
+<blockquote><p>I am near X, how can this experience be improved?</p></blockquote>
+
+<p>Sadly, nearly every &#8220;solution&#8221; to this problem essentially boils down to advertising wrapped in an utterly painful user experience. First, I have to find one (or more than one) of several apps to &#8220;improve&#8221; this experience. Next, in a public space I must sever myself from human interaction and:</p>
+
+<ol>
+<li>Retrieve phone from pocket or purse</li>
+<li>Open the application</li>
+<li>Possibly navigate through a few screens</li>
+<li>Hold the phone in front of me and attempt to derive some form of value while also potentially walking into a building and/or bus</li>
+</ol>
+
+
+<p>In contrast, leaving augmented reality to enter back into reality we could:</p>
+
+<ul>
+<li>Converse with nearby human beings</li>
+<li>Think for ourselves and choose what is best</li>
+<li>Use the built-in map features on our phones</li>
+</ul>
+
+
+<p>A vast majority of augmented reality implementations are simply a method to shove more advertising down our throats as if we weren&#8217;t already inundated. These wonderful computers in our pockets are getting wasted if they are simply dumbed down to another medium for advertisers.</p>
+]]></content>
+  </entry>
   
 </feed>
