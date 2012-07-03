@@ -5,7 +5,7 @@
 url: http://shawnwall.github.com
 title: My Octopress Blog
 subtitle: A blogging framework for hackers.
-author: Your Name
+author: Shawn Wall
 simple_search: http://google.com/search
 description:
 
@@ -64,7 +64,7 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: shawnkwall
 twitter_tweet_count: 4
 twitter_show_replies: false
 twitter_follow_button: true
