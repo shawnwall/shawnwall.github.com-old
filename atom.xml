@@ -4,7 +4,7 @@
   <title><![CDATA[Shawn Wall]]></title>
   <link href="http://shawnwall.github.com/atom.xml" rel="self"/>
   <link href="http://shawnwall.github.com/"/>
-  <updated>2012-07-03T16:46:12-04:00</updated>
+  <updated>2012-07-03T22:21:50-04:00</updated>
   <id>http://shawnwall.github.com/</id>
   <author>
     <name><![CDATA[Shawn Wall]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Quick Pick]]></title>
+    <link href="http://shawnwall.github.com/blog/2012/07/03/quick-pick/"/>
+    <updated>2012-07-03T22:19:00-04:00</updated>
+    <id>http://shawnwall.github.com/blog/2012/07/03/quick-pick</id>
+    <content type="html"><![CDATA[<blockquote><p>When making a purchase or initiating an update in iOS, you’ll no longer be sent back to your iDevice’s home screen.</p></blockquote>
+
+<p>Apple is finally starting to pay some attention to the deficiencies of the AppStore in iOS 6.</p>
+
+<p>Source: <a href="http://appadvice.com/appnn/2012/07/the-appadvice-ios-6-quick-pick-apple-makes-app-buying-experience-easier-quicker">AppAdvice</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Reality > Augmented Reality]]></title>
