@@ -4,7 +4,7 @@
   <title><![CDATA[Shawn Wall]]></title>
   <link href="http://shawnwall.github.com/atom.xml" rel="self"/>
   <link href="http://shawnwall.github.com/"/>
-  <updated>2012-07-04T10:39:55-04:00</updated>
+  <updated>2012-07-04T18:01:23-04:00</updated>
   <id>http://shawnwall.github.com/</id>
   <author>
     <name><![CDATA[Shawn Wall]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Going head to head with Apple]]></title>
+    <link href="http://shawnwall.github.com/blog/2012/07/04/going-head-to-head-with-apple/"/>
+    <updated>2012-07-04T18:01:00-04:00</updated>
+    <id>http://shawnwall.github.com/blog/2012/07/04/going-head-to-head-with-apple</id>
+    <content type="html"><![CDATA[<blockquote><p>If Google and Microsoft can’t make a must-have product around their own software, consumers may be harder to convince that hardware manufacturers could do it</p></blockquote>
+
+<p><em>After</em> Tim Cook helped streamline Apple&#8217;s operations, Microsoft and Google attempt to take on Apple head to head. The only real factors will continue to be the same - price for Google and enterprise support for Microsoft. The hardware manufacturers will continue their mediocrity while popping out more clones of the Surface &amp; Nexus 7 in addition to the iPad.</p>
+
+<p>Source: <a href="http://www.bloomberg.com/news/2012-07-03/here-comes-nexus-7-nightmare-the-ipad-mini.html">Bloomberg</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Porn producers eyeing Google's Project Glass for POV films]]></title>
