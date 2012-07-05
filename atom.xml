@@ -4,7 +4,7 @@
   <title><![CDATA[Shawn Wall]]></title>
   <link href="http://shawnwall.github.com/atom.xml" rel="self"/>
   <link href="http://shawnwall.github.com/"/>
-  <updated>2012-07-05T09:11:57-04:00</updated>
+  <updated>2012-07-05T16:38:07-04:00</updated>
   <id>http://shawnwall.github.com/</id>
   <author>
     <name><![CDATA[Shawn Wall]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[One or the other]]></title>
+    <link href="http://shawnwall.github.com/blog/2012/07/05/one-or-the-other/"/>
+    <updated>2012-07-05T16:35:00-04:00</updated>
+    <id>http://shawnwall.github.com/blog/2012/07/05/one-or-the-other</id>
+    <content type="html"><![CDATA[<p>Google sure made a beautiful device, but apparently <a href="http://pogue.blogs.nytimes.com/2012/07/05/the-google-nexus-q-is-baffling/?nl=technology&amp;emc=cta2_20120705">completely forgot about the software</a>. Maybe someday they will do both, maybe not.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Basecamp's lack of superuser]]></title>
