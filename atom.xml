@@ -4,7 +4,7 @@
   <title><![CDATA[Shawn Wall]]></title>
   <link href="http://shawnwall.github.com/atom.xml" rel="self"/>
   <link href="http://shawnwall.github.com/"/>
-  <updated>2012-07-05T16:38:07-04:00</updated>
+  <updated>2012-07-13T14:41:13-04:00</updated>
   <id>http://shawnwall.github.com/</id>
   <author>
     <name><![CDATA[Shawn Wall]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[AFIncrementalStore]]></title>
+    <link href="http://shawnwall.github.com/blog/2012/07/13/afincrementalstore/"/>
+    <updated>2012-07-13T14:35:00-04:00</updated>
+    <id>http://shawnwall.github.com/blog/2012/07/13/afincrementalstore</id>
+    <content type="html"><![CDATA[<p><a href="https://github.com/AFNetworking/AFIncrementalStore">Core Data with AFNetworking, Done Right</a></p>
+
+<p>The one and only <a href="http://twitter.com/mattt">@mattt</a> brings us a clean &amp; simple Core Data backend for RESTful services.
+My least favorite part of using <a href="https://github.com/RestKit/RestKit/">RestKit</a> was the fact that I was no longer using <a href="https://github.com/AFNetworking/AFNetworking">AFNetworking</a>
+in it, so I can&#8217;t wait to see how this progresses (or actually contribute to it).</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[One or the other]]></title>
