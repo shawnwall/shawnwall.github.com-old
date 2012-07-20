@@ -4,7 +4,7 @@
   <title><![CDATA[Shawn Wall]]></title>
   <link href="http://shawnwall.github.com/atom.xml" rel="self"/>
   <link href="http://shawnwall.github.com/"/>
-  <updated>2012-07-20T14:13:23-04:00</updated>
+  <updated>2012-07-20T14:26:39-04:00</updated>
   <id>http://shawnwall.github.com/</id>
   <author>
     <name><![CDATA[Shawn Wall]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[FSNetworking: A Small Networking Library for iOS and Mac]]></title>
+    <link href="http://shawnwall.github.com/blog/2012/07/20/fsnetworking-a-small-networking-library-for-ios-and-mac/"/>
+    <updated>2012-07-20T14:16:00-04:00</updated>
+    <id>http://shawnwall.github.com/blog/2012/07/20/fsnetworking-a-small-networking-library-for-ios-and-mac</id>
+    <content type="html"><![CDATA[<p>A few days after I finally put together my iOS third-party library <a href="http://shawnwall.github.com/ios/libraries.html">list</a>, it&#8217;s
+time to add another great component for simplified networking -
+<a href="https://github.com/foursquare/FSNetworking">FSNetworking</a> from the folks at
+<a href="http://engineering.foursquare.com/2012/07/19/say-hello-to-fsnetworking-a-small-networking-library-for-ios-and-mac/">foursquare</a>. A quick peek at the source reveals a grand total of two classes - FSNConnection &amp; FSNData along with some categories which makes FSNetworking one of the most simplified networking libs I&#8217;ve seen yet.</p>
+
+<p>It&#8217;s a block-based API which is a must-have for networking these days. Within a
+single call you can set a parseBlock, completionBlock and a progressBlock for
+callbacks. Example code is included for both iOS &amp; Mac.</p>
+
+<p>At a quick glance it&#8217;s missing the wonderful
+<a href="https://github.com/AFNetworking/AFNetworking/blob/master/AFNetworking/AFHTTPClient.h">AFHTTPClient</a> singleton pattern
+found in <a href="https://github.com/AFNetworking/AFNetworking">AFNetworking</a> although in their own example they show they use a FSAPI
+singleton so it would be nice for them to create a pattern for us to follow
+there.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[At long last]]></title>

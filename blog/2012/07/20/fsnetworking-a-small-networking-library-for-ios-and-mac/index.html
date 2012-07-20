@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>iOS Libraries - Shawn Wall</title>
+  <title>FSNetworking: A Small Networking Library for iOS and Mac - Shawn Wall</title>
   <meta name="author" content="Shawn Wall">
 
   
-  <meta name="description" content="iOS Libraries Jul 16th, 2012 Also known as &#8220;The List&#8221; A list of my most frequently used &amp; recommended open-source libraries and/or &hellip;">
+  <meta name="description" content="A few days after I finally put together my iOS third-party library list, it&#8217;s
+time to add another great component for simplified networking - &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://shawnwall.github.com/ios/libraries.html">
+  <link rel="canonical" href="http://shawnwall.github.com/blog/2012/07/20/fsnetworking-a-small-networking-library-for-ios-and-mac/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -73,96 +74,15 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">iOS Libraries</h1>
-    <p class="meta">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-07-16T21:33:00-04:00" pubdate data-updated="true">Jul 16<span>th</span>, 2012</time></p>
-  </header>
-  
-  <h3>Also known as &#8220;The List&#8221;</h3>
-
-<p>A list of my most frequently used &amp; recommended open-source libraries and/or components for iOS development.</p>
-
-<h2>Networking</h2>
-
-<ul>
-<li><a href="http://github.com/AFNetworking/AFNetworking">AFNetworking</a></li>
-<li><a href="https://github.com/RestKit/RestKit/">RestKit</a></li>
-<li><a href="https://github.com/foursquare/FSNetworking">FSNetworking</a></li>
-</ul>
-
-
-<h2>Data</h2>
-
-<ul>
-<li><a href="https://github.com/magicalpanda/MagicalRecord/">MagicalRecord</a></li>
-<li><a href="https://github.com/johnezang/JSONKit/">JSONKit</a></li>
-<li><a href="http://code.google.com/p/gdata-objectivec-client/source/browse/trunk/Source/XMLSupport/">GDataXML</a></li>
-</ul>
-
-
-<h2>UI</h2>
-
-<ul>
-<li><a href="https://github.com/mattt/TTTAttributedLabel">TTTAttributedLabel</a></li>
-<li><a href="https://github.com/matej/MBProgressHUD">MBProgressHUD</a></li>
-<li><a href="https://github.com/0xced/UIKit-Artwork-Extractor">UIKit-Artwork-Extractor</a></li>
-<li><a href="https://github.com/devinross/tapkulibrary">TapkuLibrary TKCalendar*</a></li>
-</ul>
-
-
-<h2>Authentication/Encryption</h2>
-
-<ul>
-<li><a href="https://github.com/AFNetworking/AFOAuth2Client">AFOAuth2Client</a></li>
-<li><a href="https://github.com/unixpickle/ANBase64">ANBase64</a></li>
-</ul>
-
-
-<h2>Categories</h2>
-
-<ul>
-<li><a href="https://github.com/billymeltdown/nsdate-helper/">NSDate+Helper</a></li>
-</ul>
-
-
-<h2>Testing</h2>
-
-<ul>
-<li><a href="http://ocmock.org/">OCMock</a></li>
-<li><a href="https://github.com/InfiniteLoopDK/ILTesting">ILTesting</a></li>
-<li><a href="https://github.com/allending/Kiwi">Kiwi</a></li>
-<li><a href="https://github.com/gabriel/gh-unit">GHUnit</a></li>
-</ul>
-
-
-<h2>Miscellaneous</h2>
-
-<ul>
-<li><a href="http://code.google.com/p/zxing/">zxing</a></li>
-<li><a href="https://github.com/robterrell/TVOutManager">TVOutManager</a></li>
-<li><a href="https://github.com/robbiehanson/CocoaLumberjack">CocoaLumberjack</a></li>
-</ul>
-
-
-  
-    <footer>
+    
+      <h1 class="entry-title">FSNetworking: A Small Networking Library for iOS and Mac</h1>
+    
+    
       <p class="meta">
         
-        
 
 
 
@@ -174,21 +94,71 @@
   
 
 
-<time datetime="2012-07-16T21:33:00-04:00" pubdate data-updated="true">Jul 16<span>th</span>, 2012</time>
+<time datetime="2012-07-20T14:16:00-04:00" pubdate data-updated="true">Jul 20<span>th</span>, 2012</time>
         
       </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>A few days after I finally put together my iOS third-party library <a href="/ios/libraries.html">list</a>, it&#8217;s
+time to add another great component for simplified networking -
+<a href="https://github.com/foursquare/FSNetworking">FSNetworking</a> from the folks at
+<a href="http://engineering.foursquare.com/2012/07/19/say-hello-to-fsnetworking-a-small-networking-library-for-ios-and-mac/">foursquare</a>. A quick peek at the source reveals a grand total of two classes - FSNConnection &amp; FSNData along with some categories which makes FSNetworking one of the most simplified networking libs I&#8217;ve seen yet.</p>
+
+<p>It&#8217;s a block-based API which is a must-have for networking these days. Within a
+single call you can set a parseBlock, completionBlock and a progressBlock for
+callbacks. Example code is included for both iOS &amp; Mac.</p>
+
+<p>At a quick glance it&#8217;s missing the wonderful
+<a href="https://github.com/AFNetworking/AFNetworking/blob/master/AFNetworking/AFHTTPClient.h">AFHTTPClient</a> singleton pattern
+found in <a href="https://github.com/AFNetworking/AFNetworking">AFNetworking</a> although in their own example they show they use a FSAPI
+singleton so it would be nice for them to create a pattern for us to follow
+there.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
       
-        <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://shawnwall.github.com/ios/libraries.html" data-via="shawnkwall" data-counturl="http://shawnwall.github.com/ios/libraries.html" >Tweet</a>
+
+<span class="byline author vcard">Posted by <span class="fn">Shawn Wall</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-07-20T14:16:00-04:00" pubdate data-updated="true">Jul 20<span>th</span>, 2012</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://shawnwall.github.com/blog/2012/07/20/fsnetworking-a-small-networking-library-for-ios-and-mac/" data-via="shawnkwall" data-counturl="http://shawnwall.github.com/blog/2012/07/20/fsnetworking-a-small-networking-library-for-ios-and-mac/" >Tweet</a>
   
   
   
 </div>
 
+    
+    <p class="meta">
       
-    </footer>
-  
+        <a class="basic-alignment left" href="/blog/2012/07/16/at-long-last/" title="Previous Post: At long last">&laquo; At long last</a>
+      
+      
+    </p>
+  </footer>
 </article>
 
 </div>
